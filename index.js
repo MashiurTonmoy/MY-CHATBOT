@@ -8,7 +8,7 @@ async function phantom(){
 let response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
   method: "POST",
   headers: {
-    "Authorization": "Bearer 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", 
+    "Authorization": "Bearer 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", 
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
@@ -48,7 +48,7 @@ const messages = [
 const response2 = await fetch("https://openrouter.ai/api/v1/chat/completions", {
   method: "POST",
   headers: {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer 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",
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
